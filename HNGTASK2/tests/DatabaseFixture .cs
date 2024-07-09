@@ -28,7 +28,7 @@ namespace HNGTASK2.tests
             // Save changes to ensure database is empty
             await Context.SaveChangesAsync();
 
-            var user1 = new User { UserId = "user1", Email = "", FirstName = "John", LastName = "Doe", Password = "Password1" };
+            var user1 = new User { UserId = "user1", Email = "user1@example.com", FirstName = "John", LastName = "Doe", Password = "Password1" };
             var user2 = new User { UserId = "user2", Email = "user2@example.com", FirstName = "Jane", LastName = "Smith", Password = "Password2" };
 
             var org1 = new Organisation { OrgId = "org1", Name = "Organisation 1", Description = "Description 1" };
@@ -46,13 +46,13 @@ namespace HNGTASK2.tests
 
         public void Dispose()
         {
-             Context.Dispose();
+            // Context.Dispose();
             // Dispose of context if it hasn't been disposed yet
-            //if (Context != null)
-            //{
-            //    Context.Dispose();
-            //    Context = null; // Set to null to prevent accidental reuse
-            //}
+            if (Context != null)
+            {
+                Context.Dispose();
+                Context = null; // Set to null to prevent accidental reuse
+            }
         }
     }
 

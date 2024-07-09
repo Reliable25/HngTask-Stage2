@@ -431,3 +431,6 @@ D:\Ridwan doc\Personal Project\HNG Project\HNGTASK2\HNGTASK2\obj\Debug\net6.0\re
 D:\Ridwan doc\Personal Project\HNG Project\HNGTASK2\HNGTASK2\obj\Debug\net6.0\HNGTASK2.pdb
 D:\Ridwan doc\Personal Project\HNG Project\HNGTASK2\HNGTASK2\obj\Debug\net6.0\HNGTASK2.genruntimeconfig.cache
 D:\Ridwan doc\Personal Project\HNG Project\HNGTASK2\HNGTASK2\obj\Debug\net6.0\ref\HNGTASK2.dll
+D:\Ridwan doc\Personal Project\HNG Project\HNGTASK2\HNGTASK2\bin\Debug\net6.0\Scrutor.dll
+D:\Ridwan doc\Personal Project\HNG Project\HNGTASK2\HNGTASK2\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
+D:\Ridwan doc\Personal Project\HNG Project\HNGTASK2\HNGTASK2\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll

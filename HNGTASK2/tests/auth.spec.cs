@@ -116,7 +116,6 @@ namespace HNGTASK2.tests
             // Assert.Single((List<object>)response.data.organisations);
             // Assert.Equal(1, response.data.organisations.Count); // user1 should only see 1 organisation
         }
-
     }
 }
 
